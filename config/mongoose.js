@@ -4,7 +4,7 @@ mongoose.set('strictQuery', true);
 
 
 
-mongoose.connect('mongodb://127.0.0.1/api_store');
+mongoose.connect('mongodb+srv://rahulkumar:2001@pollling.ypk75xb.mongodb.net/?retryWrites=true&w=majority');
 
 const db = mongoose.connection;
 
